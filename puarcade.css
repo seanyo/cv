@@ -1,0 +1,202 @@
+/* PUArcade 2.2 Styles */
+/*General Styles*/
+DIV.pu_Footer
+{
+	width: 97%;
+	text-align: center;
+	font-size: small;
+	font-family: Verdana;
+	float: left;
+}
+DIV.pu_message
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: small;
+}
+/*Styles for Game on Folder Layout*/
+TABLE.pu_foldertable
+{
+	border: 0;
+	width: 100%;
+}
+TABLE.pu_foldertable TD
+{
+	padding: 0px;
+	vertical-align: middle;
+}
+
+DIV.pu_GameFolderTitle
+{
+	line-height: 17px;
+	height: 68px;
+}
+TABLE.pu_FolderGame
+{
+	width: 100%;
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+}
+TABLE.pu_FolderGame TD.GameTableCell
+{
+	line-height: 20px;
+	vertical-align: top;
+}
+DIV.pu_AllGames
+{
+	float: right;
+}
+
+TD.GameCell
+{
+	line-height: 17px;
+	height: 68px;
+}
+TABLE.GameTable
+{
+	width: 100%;
+}
+DIV.linktoleaderboard
+{
+	text-align: right;
+	margin-right: 5px;
+	margin-left: auto;
+	width: 25%;
+}
+/*Styles for Game Page layout*/
+DIV.fave
+{
+
+}
+DIV.pu_pathway
+{
+	width: 60%;
+	margin-right: auto;
+	margin-left: 15px;
+	float: left;
+}
+DIV.pu_Rater
+{
+	width: 200px;
+	margin-right: 15px;
+	margin-left: auto;
+}
+DIV.pu_MediaObject
+{
+	margin: 0 auto;
+	text-align: center;
+}
+DIV.pu_ScoreUnderGame
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+DIV.pu_statsblock
+{
+	width: 48%;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+}
+DIV.pu_tagcloud
+{
+	width:48%;
+	margin: 0 auto;
+	text-align: center;
+	float: right;
+}
+DIV.pu_GamePageBottomLinks
+{
+	width: 90%;
+	margin-left: 10px;
+	margin-right: auto;
+	float: left;
+}
+DIV.pu_comments
+{
+	display: none;
+}
+/*Styles for the Tag Cloud*/
+.tag_cloud
+{
+	padding: 2px;
+	text-decoration: none;
+}
+.tag_cloud:link
+{
+	color: #81D601;
+}
+.tag_cloud:visited
+{
+	color: #019C05;
+}
+.tag_cloud:hover
+{
+	color: #FFFFFF;
+	background: #69DA03;
+}
+.tag_cloud:active
+{
+	color: #FFFFFF;
+	background: #ACFC65;
+}
+/*styles for the star rater*/
+.rating {
+	cursor: pointer;
+	margin: 2em;
+	clear: both;
+	display: block;
+}
+.rating:after {
+	content: '.';
+	display: block;
+	height: 0;
+	width: 0;
+	clear: both;
+	visibility: hidden;
+}
+.cancel,
+.star {
+	float: left;
+	width: 17px;
+	height: 15px;
+	overflow: hidden;
+	text-indent: -999em;
+	cursor: pointer;
+}
+.star-left,
+.star-right {
+  width: 8px
+}
+.cancel,
+.cancel a {background: url(delete.gif) no-repeat 0 -16px;}
+
+.star,
+.star a {background: url(star.gif) no-repeat 0 0px;}
+.star-left,
+.star-left a {background: url(star-left.gif) no-repeat 0 0px;}
+.star-right,
+.star-right a {background: url(star-right.gif) no-repeat 0 0px;}
+	
+.cancel a,
+.star a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: 0 0px;
+}
+
+div.rating div.on a {
+	background-position: 0 -16px;
+}
+div.rating div.hover a,
+div.rating div a:hover {
+	background-position: 0 -32px;
+}
+
+
